@@ -15,7 +15,7 @@ export default function FactorySection() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-12">
         {[
           "/Shirts/ORders.jpeg",
-          "/Shirts/Factory2.jpg",
+          "/Shirts/Factory2.png",
           "/Shirts/machinework.png",
           "/Shirts/mchinework2.png",
           "/Shirts/BulkOrder.jpeg",

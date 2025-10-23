@@ -41,21 +41,17 @@ const Header = () => {
             }`}
         >
           <div className="relative w-full h-[100vh]">
-          <section className="relative w-full h-[60vh] sm:h-[100vh] overflow-hidden">
-  <Image
-    src={slide.image}
-    alt={slide.description}
-    fill
-    priority={index === 0}
-    className="object-cover sm:object-cover object-center"
-    sizes="100vw"
-  />
-  <div className="absolute inset-0 bg-black/30"></div>
-</section>
-
-
-
-
+            <section className="relative w-full h-[60vh] sm:h-[100vh] overflow-hidden">
+              <Image
+                src={slide.image}
+                alt={slide.description}
+                fill
+                priority={index === 0}
+                className="object-cover sm:object-cover object-center"
+                sizes="100vw"
+              />
+              <div className="absolute inset-0 bg-black/30"></div>
+            </section>
 
             <div className="absolute inset-0 bg-black/30"></div>
           </div>
@@ -84,8 +80,8 @@ const Header = () => {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-3 h-3 rounded-full transition ${index === currentSlide
-                ? "bg-white"
-                : "bg-white/50 hover:bg-white/70"
+              ? "bg-white"
+              : "bg-white/50 hover:bg-white/70"
               }`}
           />
         ))}
