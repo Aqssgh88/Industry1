@@ -15,7 +15,6 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -115,78 +114,79 @@ export const workData = [
 // assets/assets.js (ya jahan aapka serviceData define hai)
 export const serviceData = [
   {
-    image: "/Shirts/IMG-20250826-WA0004.jpg", 
+    image: "/Shirts/IMG-20250826-WA0004.jpg",
     title: "Custom Clothing",
-    description: "High-quality customized apparel tailored to your unique needs and designs.",
+    description: "Tailored apparel designed to fit your unique style.",
     link: "#"
   },
   {
-    image: "/Shirts/Sports Wear.png", 
+    image: "/Shirts/Sports Wear.png",
     title: "Sublimation Printing",
-    description: "Premium sublimation services with vibrant and long-lasting prints.",
+    description: "Vibrant, long-lasting sublimation prints on any fabric.",
     link: "#"
   },
   {
-    image: "/Shirts/SweatSuit.jpeg", 
+    image: "/Shirts/SweatSuit.jpeg",
     title: "Streetwear",
-    description: "Trendy streetwear and durable activewear for fashion and fitness lovers.",
+    description: "Trendy, durable outfits for everyday street style.",
     link: "#"
   },
-  { 
-    image: "/Shirts/Sportswear.png", 
+  {
+    image: "/Shirts/Sportswear.png",
     title: "Sportswear",
-    description: "Custom sportswear designed for comfort, style, and performance.",
+    description: "Comfortable and stylish activewear for all athletes.",
     link: "#"
   },
   {
-    image: "/Shirts/DFT & Screen Printing.jpeg", 
+    image: "/Shirts/DFT & Screen Printing.jpeg",
     title: "DTF Printing",
-    description: "Professional screen printing with sharp, detailed, and lasting results.",
+    description: "Sharp and durable prints with high color accuracy.",
     link: "#"
   },
   {
-    image: "/Shirts/IMG-20250826-WA0019.jpg", 
+    image: "/Shirts/IMG-20250826-WA0019.jpg",
     title: "Knitting & Beanies",
-    description: "Direct-to-garment and DTF printing with exceptional color quality.",
+    description: "Warm, stylish knitwear crafted with premium materials.",
     link: "#"
   },
   {
-    image: "/Shirts/IMG-20250826-WA0037.jpg", 
+    image: "/Shirts/IMG-20250826-WA0037.jpg",
     title: "Screen Printing",
-    description: "Premium embroidery service for logos, branding, and fashion apparel.",
+    description: "High-quality screen prints for branding and fashion.",
     link: "#"
   },
   {
-    image: "/Shirts/IMG-20250826-WA0011.jpg", 
+    image: "/Shirts/IMG-20250826-WA0011.jpg",
     title: "Printing & Embroidery",
-    description: "Custom cut & sew apparel with worldwide shipping available.",
+    description: "Custom embroidery and printing for any apparel.",
     link: "#"
   },
   {
-    image: "/Shirts/Shorts.jpeg", 
+    image: "/Shirts/Shorts.jpeg",
     title: "Jeans Shorts",
-    description: "Custom cut & sew apparel with worldwide shipping available.",
+    description: "Stylish denim shorts for casual comfort and look.",
     link: "#"
   },
   {
-    image: "/Shirts/1.png", 
+    image: "/Shirts/1.png",
     title: "CowHide Leather",
-    description: "Custom cut & sew apparel with worldwide shipping available.",
+    description: "Premium cowhide leather products with fine finish.",
     link: "#"
   },
   {
-    image: "/Shirts/Lettermen jacket.jpeg", 
-    title: "Lettermen jacket",
-    description: "Custom cut & sew apparel with worldwide shipping available.",
+    image: "/Shirts/Lettermen jacket.jpeg",
+    title: "Lettermen Jacket",
+    description: "Classic varsity jackets with modern design flair.",
     link: "#"
   },
   {
-    image: "/Shirts/Femalewear.png", 
+    image: "/Shirts/Femalewear.png",
     title: "Female Active Wear",
-    description: "Custom cut & sew apparel with worldwide shipping available.",
+    description: "Stylish and flexible wear made for active women.",
     link: "#"
   },
 ];
+
 
 
 // export const infoList = [
